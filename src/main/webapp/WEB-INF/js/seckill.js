@@ -6,7 +6,8 @@ var seckill = {
     //封装秒杀相关ajax的url
     URL: {
         now: function () {
-            return '/SecondKill/meteor/time/now';
+            //return '/SecondKill/meteor/time/now';
+            return '/SecKill_war/meteor/time/now';
         },
         exposer: function (seckillId) {
             return '/SecondKill/meteor/' + seckillId + '/exposer';
